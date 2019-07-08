@@ -1,0 +1,11 @@
+from tkinter import*
+
+cal=Tk()
+cal.title("calculator")
+operator=""
+text_Input=stringvar()
+
+textDisplay=Entry(cal,font=('arial',20,'bold'), textvariable=text_Input, Bd=30, insertawidth=4,
+                  bg="power blue", justify='right').grid(golumnspan=4)
+
+cal.mainloop()
