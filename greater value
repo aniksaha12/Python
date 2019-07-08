@@ -1,0 +1,13 @@
+a=10
+b=15
+c=19
+if a>b:
+    if a>c:
+        print("%d is greater than %d and %d"%(a,b,c))
+    else:
+        print("%d is greater than %d and %d"%(c,a,b))
+else:
+     if b>c:
+         print("%d is greater than %d and %d"%(b,a,c))
+     else:
+         print("%d is greater than %d and %d"%(c,a,b))
