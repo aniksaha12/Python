@@ -1,0 +1,95 @@
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> num = 2.5
+>>> type(num)
+<class 'float'>
+>>> num =5
+>>> type(num)
+<class 'int'>
+>>> num=6+9j
+>>> type(num)
+<class 'complex'>
+>>> a=5.6
+>>> b=int(a)
+>>> type(b)
+<class 'int'>
+>>> b
+5
+>>> k=float(b)
+>>> k
+5.0
+>>> k=6
+>>> c= complex(b,k)
+>>> c
+(5+6j)
+>>> b<k
+True
+>>> bool= b<k
+>>> bool
+True
+>>> type(bool)
+<class 'bool'>
+>>> b>k
+False
+>>> int(True)
+1
+>>> int(false)
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    int(false)
+NameError: name 'false' is not defined
+>>> int(False)
+0
+>>> 1st=[25,36,45,12]
+SyntaxError: invalid syntax
+>>> lst=[25,36,45,12]
+>>> type(lst)
+<class 'list'>
+>>> s={25,36,45,12,15}
+>>> s
+{36, 12, 45, 15, 25}
+>>> type(s)
+<class 'set'>
+>>> t=(25,36,4,57,12)
+>>> str="navin"
+>>> st= 'a'
+>>> st = 'a'
+>>> type(st)
+<class 'str'>
+>>> range(0,10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(2,10,2))
+[2, 4, 6, 8]
+>>> type(range)
+<class 'type'>
+>>> type(range(10))
+<class 'range'>
+>>> d={'navin':'samsung','rahul':'Iphon,'kiran':'oneplus'}
+   
+SyntaxError: invalid syntax
+>>> d={'navin':'samsung','rahul':'Iphon,'kiran':'oneplus'}
+   
+SyntaxError: invalid syntax
+>>> >>> d={'navin':'samsung','rahul':'Iphon','kiran':'oneplus'}
+SyntaxError: invalid syntax
+>>> d={'navin':'samsung','rahul':'Iphon'}
+>>> d
+{'navin': 'samsung', 'rahul': 'Iphon'}
+>>> d.keys()
+dict_keys(['navin', 'rahul'])
+>>> d.valus()
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    d.valus()
+AttributeError: 'dict' object has no attribute 'valus'
+>>> d.values()
+dict_values(['samsung', 'Iphon'])
+>>> d['rahul']
+'Iphon'
+>>> d.get('kiran')
+>>> d.get('navin')
+'samsung'
+>>> 
+>>> 
