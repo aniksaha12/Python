@@ -1,0 +1,14 @@
+a=int(input("enter the 1st number"))
+b=int(input("enter the 2nd number"))
+greater=0
+if a>b:
+         greater=a
+else:
+         greater=b
+while(True):
+    if((greater%a==0) and (greater%b==0)):
+       lcm=greater
+    greater+=1
+print(lcm)
+
+
