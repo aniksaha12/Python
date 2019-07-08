@@ -1,0 +1,21 @@
+a={2,4,5,7,8}
+b={2,6,0,9,1,3}
+print(a | b)
+print(a & b)
+print(a-b)
+print(b-a)
+print(a^b)
+a.add(12)
+print(a)
+a.update([14,15,17,19,13])
+print(a)
+a.discard(14)
+print(a)
+a.discard(14)
+a.pop()
+print(a)
+a.pop()
+print(a)
+#a.clear()
+del a
+#print(a)
