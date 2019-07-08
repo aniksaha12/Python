@@ -1,0 +1,23 @@
+name="ankit   mandal"
+print(name)
+print(name.strip())
+print(len(name))
+print(name.upper())
+print(name.lower())
+name1="ankit monda"
+print(name1.capitalize())
+print(name1.replace("a","b"))
+print("new name",name1[:6]+"sit")
+print(name1[:6])
+print(name1)
+comment="i am bad boy"
+print(comment.center(30,'x'))
+print(comment.count('b',0,3))
+comment1=comment.encode('UTF-8',errors="STRICT")
+print(commnet1)
+print(comment1.decode('UTF-8',errors="STRICT"))
+print(max(comment))
+print(min(commnent))
+print(ord('a'))
+print(ord(' '))
+
