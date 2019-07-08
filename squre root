@@ -1,0 +1,7 @@
+a=float(input("Enter a number"))
+#the root is
+r=a**0.5
+print("the root of the number=%0.2f"%r)
+#the squre is
+r=a*a
+print("the squre of the number=%o.2f"%r)
